@@ -1,0 +1,17 @@
+﻿#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+int main()
+{
+    float a,b,c,P;
+    printf("A=");
+    scanf("%g",&a);
+    printf("B=");
+    scanf("%g",&b);
+    c=sqrt(pow(a,2)+pow(b,2));
+    P=a+b+c;
+    printf("C=%g\n",c);
+    printf("P=%g",P);
+    return 0;
+}
